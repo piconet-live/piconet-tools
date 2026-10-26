@@ -1,0 +1,41 @@
+# --- Game data: never commit ---
+*.iso
+*.gcm
+*.rvz
+*.ciso
+*.nkit.*
+*.wbfs
+*.dol
+*.rel
+*.lz
+*.gma
+*.tpl
+*.gci
+*.raw
+*.sav
+*.dtm
+!tests/fixtures/synthetic/**
+
+# --- .NET build output ---
+bin/
+obj/
+artifacts/
+TestResults/
+*.nupkg
+*.snupkg
+
+# --- Local environment ---
+.env.local
+*.local.*
+Directory.Build.local.props
+.cache/
+
+# --- Tooling / editors / OS ---
+__pycache__/
+.vs/
+.vscode/
+.idea/
+*.user
+*.swp
+.DS_Store
+Thumbs.db

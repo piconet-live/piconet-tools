@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <!-- Kept trimmable and ahead-of-time compatible, so that a program may run it trimmed and compiled ahead of time
+         (in the browser, for one). -->
+    <IsAotCompatible>true</IsAotCompatible>
+    <IsPackable>true</IsPackable>
+    <PackageId>Fzgx.GameCube</PackageId>
+    <Description>Readers for GameCube disc images and Amusement Vision file formats used by F-Zero GX.</Description>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <InternalsVisibleTo Include="Fzgx.GameCube.Tests" />
+  </ItemGroup>
+
+</Project>

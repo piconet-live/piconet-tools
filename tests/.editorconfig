@@ -1,0 +1,3 @@
+# Test projects: test names read as sentences, e.g. Unknown_keys_are_not_found.
+[*.cs]
+dotnet_diagnostic.CA1707.severity = none

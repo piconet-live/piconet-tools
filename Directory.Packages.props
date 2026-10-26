@@ -1,0 +1,10 @@
+<Project>
+  <!-- Central package versions: every PackageReference omits its version. -->
+  <PropertyGroup>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- Tests run on Microsoft.Testing.Platform (see global.json), which xunit.v3 includes. -->
+    <PackageVersion Include="xunit.v3" Version="4.0.1" />
+  </ItemGroup>
+</Project>

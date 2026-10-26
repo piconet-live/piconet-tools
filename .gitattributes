@@ -1,0 +1,9 @@
+# Normalize line endings; scripts must stay LF so they run under WSL/Linux.
+* text=auto eol=lf
+*.sh text eol=lf
+*.py text eol=lf
+
+# Binary formats that may appear as synthetic test fixtures.
+*.bin binary
+*.fztp binary
+*.png binary

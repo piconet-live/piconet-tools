@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Fzgx.GameCube/Fzgx.GameCube.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Fzgx.GameCube.Tests/Fzgx.GameCube.Tests.csproj" />
+  </Folder>
+</Solution>
