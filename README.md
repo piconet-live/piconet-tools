@@ -1,5 +1,7 @@
 # piconet-tools
 
+[![CI](https://github.com/piconet-live/piconet-tools/actions/workflows/ci.yml/badge.svg)](https://github.com/piconet-live/piconet-tools/actions/workflows/ci.yml)
+
 `Fzgx.GameCube`: .NET readers for GameCube disc images and the Amusement Vision file formats F-Zero GX uses (the
 disc's file system, LZ compression, GMA models, TPL textures and the GX texture formats, PNG output). The
 [piconet-launcher](https://github.com/piconet-live/piconet-launcher) builds it from source as its submodule
