@@ -20,7 +20,13 @@ No game data is stored here: the tests build their discs, models and textures in
 
 ## Requirements
 
-- the .NET SDK 10.0.401 or a later 10.0 patch (`global.json`)
+- the .NET SDK 10.0.401 or a later 10.0 patch (`global.json`). Ubuntu's apt package (10.0.1xx) is
+  older, so install it with Microsoft's script, then put it on `PATH`:
+
+      curl -sSLO https://dot.net/v1/dotnet-install.sh && bash dotnet-install.sh --channel 10.0
+      export DOTNET_ROOT=$HOME/.dotnet PATH=$HOME/.dotnet:$PATH    # in ~/.bashrc too
+
+  In WSL, Windows' `dotnet.exe` can come first on `PATH`; `command -v dotnet` should name `~/.dotnet/dotnet`.
 - nuget.org, for xunit.v3 (the tests only)
 
 ## Build and test
