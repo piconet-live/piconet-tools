@@ -6,7 +6,7 @@
 disc's file system, LZ compression, GMA models, TPL textures and the GX texture formats, PNG output). The
 [piconet-launcher](https://github.com/piconet-live/piconet-launcher) builds it from source as its submodule
 `external/tools`, to read and prepare your own disc. Piconet is online multiplayer for F-Zero GX: see
-[piconet](https://github.com/piconet-live/piconet).
+[github.com/piconet-live](https://github.com/piconet-live).
 
 No game data is stored here: the tests build their discs, models and textures in code.
 
